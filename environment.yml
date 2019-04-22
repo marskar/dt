@@ -1,0 +1,13 @@
+name: dt
+channels:
+ - conda-forge
+
+dependencies:
+ - numpy
+ - pandas
+ - matplotlib
+ - pydotplus
+ - sklearn
+ - conda-forge::graphviz
+ - conda-forge::python-graphviz
+
