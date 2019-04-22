@@ -7,7 +7,7 @@ dependencies:
  - pandas
  - matplotlib
  - pydotplus
- - sklearn
- - conda-forge::graphviz
- - conda-forge::python-graphviz
+ - scikit-learn
+ - graphviz
+ - python-graphviz
 
