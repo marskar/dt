@@ -1,13 +1,18 @@
-name: dt
+name: rise-environment
 channels:
- - conda-forge
-
+  - damianavila82
+  - conda-forge
 dependencies:
- - numpy
- - pandas
- - matplotlib
- - pydotplus
- - scikit-learn
- - graphviz
- - python-graphviz
-
+  - python
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - pydotplus
+  - graphviz
+  - python-graphviz
+  - bokeh
+  - rise
+  - sqlalchemy
+  - pymysql
+  - seaborn
