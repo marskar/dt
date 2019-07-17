@@ -1,11 +1,11 @@
 slides: index.ipynb
-	jupyter nbconvert index.ipynb --to slides --reveal-prefix="https://revealjs.com"
+	jupyter nbconvert index.ipynb --to slides --reveal-prefix="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0"
 	mv index.slides.html index.html
 
 init: .git/
 
 .git/:
-	curl --user 'marskar' https://api.github.com/user/repos --data '{"name":"ds101","description":"A presentation about data science basics."}'
+	curl --user 'marskar' https://api.github.com/user/repos --data '{"name":"dt","description":"A presentation about decision trees."}'
 	git init
 	git add --all
 	git commit --message "First commit"
